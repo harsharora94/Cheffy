@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/dashboard"
+            android:icon="@drawable/ic_home_black_48dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/account"
+            android:icon="@drawable/ic_account_box_black_48dp"
+            android:title="Chef" />
+        <item
+            android:id="@+id/manage_devices"
+            android:icon="@drawable/ic_add_to_queue_black_48dp"
+            android:title="Manage" />
+
+        <item
+            android:id="@+id/preferences"
+            android:icon="@drawable/ic_settings_black_48dp"
+            android:title="Preferences" />
+
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/logout"
+            android:title="Logout" />
+
+
+    </group>
+
+    <item android:title="More">
+        <menu>
+            <item
+                android:id="@+id/help"
+                android:icon="@drawable/ic_help_black_48dp"
+                android:title="Help" />
+            <item
+                android:id="@+id/contact_us"
+                android:icon="@drawable/ic_contact_mail_black_48dp"
+                android:title="Contact us" />
+        </menu>
+    </item>
+
+</menu>

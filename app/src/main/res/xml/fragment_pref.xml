@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <EditTextPreference android:title="Server"
+        android:key="server"
+        android:summary="Please Enter the Server Address ">
+    </EditTextPreference>
+
+    <CheckBoxPreference android:title="Check for Updates"
+        android:defaultValue="false"
+        android:summary="This option if selected will allow the application to check for latest versions."
+        android:key="checkforUpdates" />
+
+    <SwitchPreference
+        android:title="Notifications"
+        android:defaultValue="true"
+        android:summary="This option if selected will allow the application to get Notifications."
+        android:key="notifications"/>
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:summary="Turn on/off Vibration mode"
+        android:dependency="notifications"
+        android:key="notifications_vibrate"
+        android:title="Vibrate" />
+
+    <ListPreference android:title="Font Size"
+        android:summary="Select the font Size for the App"
+        android:key="fontsize"
+        android:defaultValue="1"
+        android:entries="@array/fontsizelist"
+        android:entryValues="@array/values" />
+
+    <ListPreference android:title="Background"
+        android:summary="Select the Background Colour"
+        android:key="background"
+        android:defaultValue="1"
+        android:entries="@array/background"
+        android:entryValues="@array/values"/>
+
+    <PreferenceCategory android:title="More">
+    <Preference android:title="FAQ"/>
+    <Preference android:title="Payment"/>
+    <Preference android:title="Delete Account"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

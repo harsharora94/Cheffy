@@ -1,0 +1,51 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+
+
+    <!--item
+        android:id="@+id/subscribe_id"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="Subscribe"/-->
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/share_id"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="Share" />
+
+    <item
+        android:id="@+id/notifications_id"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:title="Notifications"
+        android:icon="@drawable/ic_notifications_white_24dp"/>
+
+    <item
+        android:id="@+id/location_id"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:title="Share"
+        android:icon="@drawable/ic_location_on_white_24dp"/>
+
+    <item
+        android:id="@+id/info_id"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:title="Share"
+        android:icon="@drawable/ic_info_white_24dp"/>
+
+
+
+
+</menu>
+
+

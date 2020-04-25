@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "223508671909",
+    "firebase_url": "https://cheffy-1510d.firebaseio.com",
+    "project_id": "cheffy-1510d",
+    "storage_bucket": "cheffy-1510d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:223508671909:android:8958317abaf1ff90654c4c",
+        "android_client_info": {
+          "package_name": "com.example.cheffy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "223508671909-9nk3cdp2na9pkr2bhhre6dru8a2gn1hm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFf7F15_lTe5DKyq_gYamezp__B1h7D1Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "223508671909-9nk3cdp2na9pkr2bhhre6dru8a2gn1hm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
